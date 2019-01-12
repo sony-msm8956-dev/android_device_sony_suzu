@@ -1759,12 +1759,12 @@
 
     <!-- Gain offset target for dmic1 unit calibration -->
     <path name="dmic1-adj-gain">
-        <ctl name="DEC7 Volume" value="104" />
+        <ctl name="DEC7 Volume" value="110" />
     </path>
 
     <!-- Gain offset target for dmic2 unit calibration -->
     <path name="dmic2-adj-gain">
-        <ctl name="DEC8 Volume" value="84" />
+        <ctl name="DEC8 Volume" value="89" />
     </path>
 
     <!-- For Tasha, DMIC numbered from 0 to 5 -->
@@ -1828,8 +1828,8 @@
         <ctl name="SLIM_0_RX Channels" value="Two" />
         <ctl name="RX INT7_1 MIX1 INP0" value="RX0" />
         <ctl name="RX INT8_1 MIX1 INP0" value="RX1" />
-        <ctl name="RX7 Digital Volume" value="82" />
-        <ctl name="RX8 Digital Volume" value="82" />
+        <ctl name="RX7 Digital Volume" value="86" />
+        <ctl name="RX8 Digital Volume" value="86" />
         <ctl name="SpkrLeft COMP Switch" value="1" />
         <ctl name="SpkrRight COMP Switch" value="1" />
         <ctl name="SpkrLeft BOOST Switch" value="1" />
@@ -2188,7 +2188,7 @@
         <ctl name="RX INT0_1 MIX1 INP0" value="RX0" />
         <ctl name="RX INT0 DEM MUX" value="CLSH_DSM_OUT" />
         <ctl name="EAR PA Gain" value="G_6_DB" />
-        <ctl name="RX0 Digital Volume" value="84" />
+        <ctl name="RX0 Digital Volume" value="86" />
         <ctl name="MSM_Ear_Enable_States" value="Enable"/>
     </path>
 
@@ -2244,8 +2244,8 @@
         <ctl name="RX INT2 DEM MUX" value="CLSH_DSM_OUT" />
         <ctl name="COMP1 Switch" value="1" />
         <ctl name="COMP2 Switch" value="1" />
-        <ctl name="RX1 Digital Volume" value="76" />
-        <ctl name="RX2 Digital Volume" value="76" />
+        <ctl name="RX1 Digital Volume" value="80" />
+        <ctl name="RX2 Digital Volume" value="80" />
     </path>
 
     <path name="headphones-44.1">
@@ -2337,7 +2337,7 @@
         <ctl name="SLIM RX0 MUX" value="AIF_MIX1_PB" />
         <ctl name="SLIM_0_RX Channels" value="One" />
         <ctl name="RX INT8_1 MIX1 INP0" value="RX0" />
-        <ctl name="RX8 Digital Volume" value="82" />
+        <ctl name="RX8 Digital Volume" value="86" />
         <ctl name="SpkrRight COMP Switch" value="1" />
         <ctl name="SpkrRight BOOST Switch" value="1" />
         <ctl name="SpkrRight VISENSE Switch" value="1" />
@@ -2358,8 +2358,8 @@
         <ctl name="RX INT2_1 MIX1 INP0" value="RX1" />
         <ctl name="RX INT1 DEM MUX" value="CLSH_DSM_OUT" />
         <ctl name="RX INT2 DEM MUX" value="CLSH_DSM_OUT" />
-        <ctl name="RX1 Digital Volume" value="76" />
-        <ctl name="RX2 Digital Volume" value="76" />
+        <ctl name="RX1 Digital Volume" value="78" />
+        <ctl name="RX2 Digital Volume" value="78" />
     </path>
 
     <path name="voice-headphones-eq1">
@@ -2384,8 +2384,8 @@
         <ctl name="RX INT2_1 MIX1 INP0" value="RX1" />
         <ctl name="RX INT1 DEM MUX" value="CLSH_DSM_OUT" />
         <ctl name="RX INT2 DEM MUX" value="CLSH_DSM_OUT" />
-        <ctl name="RX1 Digital Volume" value="55" />
-        <ctl name="RX2 Digital Volume" value="55" />
+        <ctl name="RX1 Digital Volume" value="58" />
+        <ctl name="RX2 Digital Volume" value="58" />
         <path name="headphones-hpf" />
         <ctl name="Set Custom Stereo" value="Mix" />
     </path>
@@ -2565,8 +2565,8 @@
 
     <path name="camcorder-mic">
         <path name="camcorder-mic-common" />
-        <ctl name="DEC8 Volume" value="101" />
-        <ctl name="DEC7 Volume" value="83" />
+        <ctl name="DEC8 Volume" value="110" />
+        <ctl name="DEC7 Volume" value="89" />
     </path>
 
     <path name="camcorder-mic-gain-low">
