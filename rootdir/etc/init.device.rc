@@ -1,0 +1,5 @@
+on property:persist.radio.multisim.config=""
+    setprop ro.semc.product.model F5121
+
+on property:persist.radio.multisim.config=dsds
+    setprop ro.semc.product.model F5122
