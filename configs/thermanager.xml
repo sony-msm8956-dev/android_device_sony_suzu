@@ -172,114 +172,104 @@
 		</threshold>
 	</configuration>
 
-	<!-- A53+A72, GPU, charging -->
+	<!-- A53+A72, GPU -->
 	<configuration sensor="case_therm">
 		<threshold>
 			<mitigation name="cluster-0-clk" level="off" />
 			<mitigation name="cluster-1-clk" level="off" />
 			<mitigation name="adreno-clk" level="off" />
+		</threshold>
+		<threshold trigger="460" clear="440">
+			<mitigation name="cluster-0-clk" level="off" />
+			<mitigation name="cluster-1-clk" level="1" />
+			<mitigation name="adreno-clk" level="off" />
+		</threshold>
+		<threshold trigger="480" clear="460">
+			<mitigation name="cluster-0-clk" level="off" />
+			<mitigation name="cluster-1-clk" level="1" />
+			<mitigation name="adreno-clk" level="off" />
+		</threshold>
+		<threshold trigger="500" clear="480">
+			<mitigation name="cluster-0-clk" level="1" />
+			<mitigation name="cluster-1-clk" level="2" />
+			<mitigation name="adreno-clk" level="1" />
+		</threshold>
+		<threshold trigger="520" clear="500">
+			<mitigation name="cluster-0-clk" level="2" />
+			<mitigation name="cluster-1-clk" level="2" />
+			<mitigation name="adreno-clk" level="2" />
+		</threshold>
+		<threshold trigger="540" clear="520">
+			<mitigation name="cluster-0-clk" level="2" />
+			<mitigation name="cluster-1-clk" level="3" />
+			<mitigation name="adreno-clk" level="3" />
+		</threshold>
+		<threshold trigger="560" clear="540">
+			<mitigation name="cluster-0-clk" level="4" />
+			<mitigation name="cluster-1-clk" level="5" />
+			<mitigation name="adreno-clk" level="4" />
+		</threshold>
+		<threshold trigger="580" clear="560">
+			<mitigation name="cluster-0-clk" level="5" />
+			<mitigation name="cluster-1-clk" level="10" />
+			<mitigation name="adreno-clk" level="6" />
+		</threshold>
+	</configuration>
+
+	<!-- Charging control -->
+	<configuration sensor="case_therm">
+		<threshold>
 			<mitigation name="charging" level="off" />
 		</threshold>
 		<threshold trigger="490" clear="487">
-			<mitigation name="cluster-0-clk" level="off" />
-			<mitigation name="cluster-1-clk" level="5" />
-			<mitigation name="adreno-clk" level="off" />
 			<mitigation name="charging" level="2" />
 		</threshold>
 		<threshold trigger="498" clear="490">
-			<mitigation name="cluster-0-clk" level="off" />
-			<mitigation name="cluster-1-clk" level="5" />
-			<mitigation name="adreno-clk" level="off" />
 			<mitigation name="charging" level="2" />
 		</threshold>
 		<threshold trigger="500" clear="498">
-			<mitigation name="cluster-0-clk" level="off" />
-			<mitigation name="cluster-1-clk" level="11" />
-			<mitigation name="adreno-clk" level="off" />
 			<mitigation name="charging" level="3" />
 		</threshold>
 		<threshold trigger="505" clear="500">
-			<mitigation name="cluster-0-clk" level="off" />
-			<mitigation name="cluster-1-clk" level="12" />
-			<mitigation name="adreno-clk" level="off" />
 			<mitigation name="charging" level="3" />
 		</threshold>
 		<threshold trigger="508" clear="505">
-			<mitigation name="cluster-0-clk" level="1" />
-			<mitigation name="cluster-1-clk" level="12" />
-			<mitigation name="adreno-clk" level="off" />
 			<mitigation name="charging" level="3" />
 		</threshold>
 		<threshold trigger="509" clear="508">
-			<mitigation name="cluster-0-clk" level="1" />
-			<mitigation name="cluster-1-clk" level="12" />
-			<mitigation name="adreno-clk" level="off" />
 			<mitigation name="charging" level="3" />
 		</threshold>
 		<threshold trigger="510" clear="509">
-			<mitigation name="cluster-0-clk" level="2" />
-			<mitigation name="cluster-1-clk" level="12" />
-			<mitigation name="adreno-clk" level="off" />
 			<mitigation name="charging" level="8" />
 		</threshold>
 		<threshold trigger="512" clear="510">
-			<mitigation name="cluster-0-clk" level="4" />
-			<mitigation name="cluster-1-clk" level="12" />
-			<mitigation name="adreno-clk" level="2" />
 			<mitigation name="charging" level="8" />
 		</threshold>
 		<threshold trigger="516" clear="512">
-			<mitigation name="cluster-0-clk" level="4" />
-			<mitigation name="cluster-1-clk" level="12" />
-			<mitigation name="adreno-clk" level="2" />
 			<mitigation name="charging" level="9" />
 		</threshold>
 		<threshold trigger="518" clear="516">
-			<mitigation name="cluster-0-clk" level="5" />
-			<mitigation name="cluster-1-clk" level="12" />
-			<mitigation name="adreno-clk" level="3" />
 			<mitigation name="charging" level="9" />
 		</threshold>
 		<threshold trigger="522" clear="518">
-			<mitigation name="cluster-0-clk" level="5" />
-			<mitigation name="cluster-1-clk" level="12" />
-			<mitigation name="adreno-clk" level="3" />
 			<mitigation name="charging" level="9" />
 		</threshold>
 		<threshold trigger="525" clear="522">
-			<mitigation name="cluster-0-clk" level="6" />
-			<mitigation name="cluster-1-clk" level="12" />
-			<mitigation name="adreno-clk" level="6" />
 			<mitigation name="charging" level="12" />
 		</threshold>
 		<threshold trigger="528" clear="525">
-			<mitigation name="cluster-0-clk" level="6" />
-			<mitigation name="cluster-1-clk" level="12" />
-			<mitigation name="adreno-clk" level="6" />
 			<mitigation name="charging" level="12" />
 		</threshold>
 		<threshold trigger="530" clear="528">
-			<mitigation name="cluster-0-clk" level="6" />
-			<mitigation name="cluster-1-clk" level="12" />
-			<mitigation name="adreno-clk" level="6" />
 			<mitigation name="charging" level="12" />
 		</threshold>
 		<threshold trigger="550" clear="530">
-			<mitigation name="cluster-0-clk" level="6" />
-			<mitigation name="cluster-1-clk" level="12" />
-			<mitigation name="adreno-clk" level="6" />
 			<mitigation name="charging" level="12" />
 		</threshold>
 		<threshold trigger="560" clear="550">
-			<mitigation name="cluster-0-clk" level="7" />
-			<mitigation name="cluster-1-clk" level="12" />
-			<mitigation name="adreno-clk" level="6" />
 			<mitigation name="charging" level="12" />
 		</threshold>
 		<threshold trigger="590" clear="560">
-			<mitigation name="cluster-0-clk" level="7" />
-			<mitigation name="cluster-1-clk" level="12" />
-			<mitigation name="adreno-clk" level="6" />
 			<mitigation name="charging" level="13" />
 		</threshold>
 	</configuration>
