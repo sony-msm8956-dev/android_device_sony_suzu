@@ -111,16 +111,16 @@
 
 	<!-- backlight levels -->
 	<control name="backlight">
-		<mitigation level="off"><value resource="lcd-backlight">255</value></mitigation>
-		<mitigation level="1"><value resource="lcd-backlight">202</value></mitigation>
-		<mitigation level="2"><value resource="lcd-backlight">162</value></mitigation>
-		<mitigation level="3"><value resource="lcd-backlight">130</value></mitigation>
-		<mitigation level="4"><value resource="lcd-backlight">104</value></mitigation>
-		<mitigation level="5"><value resource="lcd-backlight">83</value></mitigation>
-		<mitigation level="6"><value resource="lcd-backlight">66</value></mitigation>
-		<mitigation level="7"><value resource="lcd-backlight">52</value></mitigation>
-		<mitigation level="8"><value resource="lcd-backlight">41</value></mitigation>
-		<mitigation level="9"><value resource="lcd-backlight">32</value></mitigation>
+		<mitigation level="off"><value resource="lcd-backlight">4095</value></mitigation>
+		<mitigation level="1"><value resource="lcd-backlight">3244</value></mitigation>
+		<mitigation level="2"><value resource="lcd-backlight">2602</value></mitigation>
+		<mitigation level="3"><value resource="lcd-backlight">2088</value></mitigation>
+		<mitigation level="4"><value resource="lcd-backlight">1670</value></mitigation>
+		<mitigation level="5"><value resource="lcd-backlight">1333</value></mitigation>
+		<mitigation level="6"><value resource="lcd-backlight">1060</value></mitigation>
+		<mitigation level="7"><value resource="lcd-backlight">835</value></mitigation>
+		<mitigation level="8"><value resource="lcd-backlight">658</value></mitigation>
+		<mitigation level="9"><value resource="lcd-backlight">514</value></mitigation>
 	</control>
 
 	<!-- charging levels -->
