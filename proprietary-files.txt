@@ -1,0 +1,14 @@
+# Audio Calibration
+vendor/etc/acdbdata/Bluetooth_cal.acdb
+vendor/etc/acdbdata/General_cal.acdb
+vendor/etc/acdbdata/Global_cal.acdb
+vendor/etc/acdbdata/Handset_cal.acdb
+vendor/etc/acdbdata/Hdmi_cal.acdb
+vendor/etc/acdbdata/Headset_cal.acdb
+vendor/etc/acdbdata/Speaker_cal.acdb
+
+# BT Firmware
+vendor/firmware/BCM4345C0.hcd
+
+# WiFi Firmware
+vendor/firmware/bcmdhd.cal
