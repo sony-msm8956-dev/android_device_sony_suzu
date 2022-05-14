@@ -36,9 +36,6 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/camera/imx300_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx300_chromatix.xml
 
 # NFC Configuration
-PRODUCT_PACKAGES += \
-    nfc_nci.suzu
-
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/nfc/libnfc-brcm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-brcm.conf \
     $(DEVICE_PATH)/nfc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf
