@@ -65,8 +65,5 @@ PRODUCT_COPY_FILES += \
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/sony/msm8956-common/msm8956.mk)
 
-# copy NFC firmware
-$(call inherit-product-if-exists, vendor/nxp/nxp-vendor.mk)
-
 # include board vendor blobs
 $(call inherit-product-if-exists, vendor/sony/suzu/suzu-vendor.mk)
