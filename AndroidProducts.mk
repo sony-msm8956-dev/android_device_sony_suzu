@@ -15,3 +15,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_suzu.mk
+
+COMMON_LUNCH_CHOICES := \
+    lineage_suzu-eng \
+    lineage_suzu-user \
+    lineage_suzu-userdebug
