@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-include device/sony/msm8956-common/BoardConfigCommon.mk
+include device/sony/loire-common/BoardConfigCommon.mk
 
 # Kernel
 TARGET_KERNEL_CONFIG := aosp_loire_suzu_defconfig

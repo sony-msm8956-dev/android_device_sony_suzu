@@ -63,7 +63,7 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/thermal/thermanager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/thermanager.xml
 
 # Inherit from those products. Most specific first.
-$(call inherit-product, device/sony/msm8956-common/msm8956.mk)
+$(call inherit-product, device/sony/loire-common/loire.mk)
 
 # include board vendor blobs
 $(call inherit-product-if-exists, vendor/sony/suzu/suzu-vendor.mk)

@@ -9,7 +9,7 @@
 set -e
 
 export DEVICE=suzu
-export DEVICE_COMMON=msm8956-common
+export DEVICE_COMMON=loire-common
 export VENDOR=sony
 
 "./../../${VENDOR}/${DEVICE_COMMON}/setup-makefiles.sh" "$@"
