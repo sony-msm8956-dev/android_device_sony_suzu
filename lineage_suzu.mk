@@ -26,6 +26,7 @@ $(call inherit-product, device/sony/suzu/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Boot animation
+TARGET_BOOTANIMATION_HALF_RES := true
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
